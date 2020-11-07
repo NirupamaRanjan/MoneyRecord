@@ -1,0 +1,64 @@
+- Always use dumb component for component which dont use state or life cycle method.
+- always use css class for style
+- use <React.Fragment> for multiple children only
+- use self closing element which dont have children.
+- components
+	- dumb component (stateless, functional)
+- containers 
+	- smart component (state, lifecycle)
+- controlled vs uncontrolled input
+
+<App
+	state: 
+        isDialogVisible: bool
+        isAdd: bool
+        users: []
+        searchKey: ''
+        user: {}
+<SearchBox searchKey onChange />
+<AddUserButton onClick /> => {isDialogVisible: true, isAdd: true, user: {}}
+{isDialogVisible && <UserAddEditForm isAdd user />}
+<UserList 
+    users 
+    onEditClick={isDialogVisible: true, isAdd: false, user: user}
+    onDeleteClick={user} />
+
+CREATE
+fetch('http://localhost:3005/users', {method: 'POST',  headers: {
+      'Content-Type': 'application/json'
+      // 'Content-Type': 'application/x-www-form-urlencoded',
+    }, body: JSON.stringify({
+    "name": "Sumit",
+  })});
+EDIT
+fetch('http://localhost:3005/users/1', {method: 'PATCH',  headers: {
+      'Content-Type': 'application/json'
+      // 'Content-Type': 'application/x-www-form-urlencoded',
+    }, body: JSON.stringify({
+    "name": "Sumit",
+  })});
+DELETE
+fetch('http://localhost:3005/users/1', {method: 'DELETE'});
+
+
+<form>
+  <div class="form-group">
+    <label>Email address</label>
+    <input type="text" class="form-control" value={this.props.name} onChange={} />
+  </div>
+  <div class="form-group">
+    <label>Email address</label>
+    <input type="text" class="form-control" value={this.props.name} onChange={} />
+  </div>
+  <div class="form-group">
+    <label>Email address</label>
+    <input type="text" class="form-control" value={this.props.name} onChange={} />
+  </div>
+  <div class="form-group">
+    <label>Email address</label>
+    <input type="text" class="form-control" value={this.props.name} onChange={} />
+  </div>
+</form>
+
+
+		

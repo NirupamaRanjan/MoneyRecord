@@ -1,0 +1,190 @@
+{
+  "Customer": [
+    {
+      "title": "Vishalbhai",
+      "contect": "5435454345",
+      "Email": "gre@fre.com",
+      "accountNumber": "20281051002",
+      "balance": 3980,
+      "Entries": [
+        {
+          "date": "8/8/2020, 1:55:15 PM",
+          "Particulars": "cash jama",
+          "Debit": "-",
+          "Credit": "5000",
+          "balance": 5000,
+          "checkNo": "-",
+          "id": 1
+        },
+        {
+          "date": "8/8/2020, 2:01:14 PM",
+          "Particulars": "khgu",
+          "Debit": "-",
+          "Credit": "10",
+          "balance": 3990,
+          "checkNo": "432434",
+          "id": 2
+        },
+        {
+          "date": "8/6/2020, 6:36:34 PM",
+          "Particulars": "new",
+          "Debit": "-",
+          "Credit": "-",
+          "balance": 0,
+          "checkNo": "-",
+          "id": 3
+        },
+        {
+          "date": "8/8/2020, 1:56:20 PM",
+          "Particulars": "fdsfd",
+          "Debit": "1000",
+          "Credit": "-",
+          "balance": 4000,
+          "checkNo": "-",
+          "id": 4
+        },
+        {
+          "date": "8/11/2020, 9:03:00 AM",
+          "Particulars": "fdsf",
+          "Debit": "10",
+          "Credit": "-",
+          "balance": 3980,
+          "checkNo": "-",
+          "id": 5
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "jasmin",
+      "contect": "4324343323",
+      "Email": "ew@dew.com",
+      "accountNumber": "20281051008",
+      "balance": 740,
+      "Entries": [
+        {
+          "date": "8/8/2020, 2:28:02 PM",
+          "Particulars": "fdgre",
+          "Debit": "-",
+          "Credit": "1000",
+          "balance": 1000,
+          "checkNo": "-",
+          "id": 1
+        },
+        {
+          "date": "8/8/2020, 3:53:27 PM",
+          "Particulars": "3",
+          "Debit": "-",
+          "Credit": "30",
+          "balance": 740,
+          "checkNo": "432434",
+          "id": 2
+        },
+        {
+          "date": "8/8/2020, 2:28:15 PM",
+          "Particulars": "fdfer",
+          "Debit": "200",
+          "Credit": "-",
+          "balance": 800,
+          "checkNo": "-",
+          "id": 3
+        },
+        {
+          "date": "8/8/2020, 3:51:01 PM",
+          "Particulars": "fretrtr",
+          "Debit": "-",
+          "Credit": "30",
+          "balance": 770,
+          "checkNo": "343432",
+          "id": 4
+        }
+      ],
+      "id": 8
+    },
+    {
+      "title": "Dip",
+      "contect": "4324535333",
+      "Email": "ssss@ssss.com",
+      "accountNumber": "20281051009",
+      "balance": 519,
+      "Entries": [
+        {
+          "date": "8/8/2020, 3:52:33 PM",
+          "Particulars": "gfth",
+          "Debit": "-",
+          "Credit": "1000",
+          "balance": 1000,
+          "checkNo": "-",
+          "id": 1
+        },
+        {
+          "date": "8/8/2020, 3:57:09 PM",
+          "Particulars": "4",
+          "Debit": "11",
+          "Credit": "-",
+          "balance": 519,
+          "checkNo": "-",
+          "id": 2
+        },
+        {
+          "date": "8/8/2020, 3:52:58 PM",
+          "Particulars": "2",
+          "Debit": "500",
+          "Credit": "-",
+          "balance": 500,
+          "checkNo": "-",
+          "id": 3
+        },
+        {
+          "date": "8/8/2020, 3:53:29 PM",
+          "Particulars": "3",
+          "Debit": "30",
+          "Credit": "-",
+          "balance": 530,
+          "checkNo": "432434",
+          "id": 4
+        }
+      ],
+      "id": 9
+    },
+    {
+      "title": "Dipeshmakwana",
+      "contect": "6446464646",
+      "Email": "fgdg@fef.com",
+      "accountNumber": "202810510010",
+      "balance": 0,
+      "Entries": [],
+      "id": 10
+    },
+    {
+      "title": "abc",
+      "contect": "4545454545",
+      "Email": "km@jj.com",
+      "accountNumber": "202810510011",
+      "balance": 800,
+      "Entries": [
+        {
+          "date": "8/8/2020, 4:28:49 PM",
+          "Particulars": "gfsdgf",
+          "Debit": "-",
+          "Credit": "1000",
+          "balance": 1000,
+          "checkNo": "-",
+          "id": 1
+        },
+        {
+          "date": "8/8/2020, 4:29:20 PM",
+          "Particulars": "asdf",
+          "Debit": "200",
+          "Credit": "-",
+          "balance": 800,
+          "checkNo": "-",
+          "id": 2
+        }
+      ],
+      "id": 11
+    }
+  ],
+  "recordtracer": [],
+  "recordtracer1": []
+}

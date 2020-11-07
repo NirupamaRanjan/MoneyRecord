@@ -1,0 +1,27 @@
+{this.state.modelview &&   <BT.Modal
+          show={true}
+          shouldCloseOnEsc={false}
+          shouldCloseOnOverlayClick={false}
+        > <BT.Modal.Body> <BT.Row>
+        <BT.Col xs="15">
+          <BT.InputGroup>             
+          <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">              
+                    Amount
+                  </span>
+                </div>
+              <BT.FormControl
+                placeholder="Enter Amount Here"
+                type="number"
+                value={this.state.price }
+                 onChange={this.onChangeHandler}
+                name="price"
+              ></BT.FormControl>      <BT.Button onClick={() => this.setState({cp: this.state.price})} disabled ={this.state.price === "" ? true : false}>Pay</BT.Button>     
+          </BT.InputGroup>
+        </BT.Col></BT.Row></BT.Modal.Body><BT.Modal.Footer>{console.log(newpr)}
+         { this.state.cp !== "" && <Payment email={this.state.ID} name={this.state.selname} p={newpr} updatestatus={this.state.status}/>}
+        <BT.Button size="sm"  variant="secondary" onClick={()=> this.setState({modelview:false,price:"",cp:""})}>Cancle</BT.Button>
+      </BT.Modal.Footer></BT.Modal>}
+ <td>
+                         <BT.Button variant="link" onClick={() => this.paymentHandler(userobj.Email,userobj.name)}>Charge</BT.Button>
+                      </td>
